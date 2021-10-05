@@ -1,0 +1,10 @@
+runtime: nodejs16
+
+instance_class: F2
+
+
+env_variables:
+  DB_USER: "root"
+  DB_NAME: "testdb"
+  DB_PASS: "12345678"
+  DB_INSTANCE: "localhost"

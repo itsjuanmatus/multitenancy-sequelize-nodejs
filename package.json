@@ -1,0 +1,23 @@
+{
+  "name": "multi-tenancy-api",
+  "version": "1.0.0",
+  "description": "sequelize, nodejs multi-tenancy implementation",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "multi-tenancy"
+  ],
+  "author": "juan matus",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.13",
+    "sequelize": "^6.6.5"
+  }
+}
